@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@components/*": ["components/*"],
+      "@pages/*": ["src/pages/*"],
+      "@styles/*": ["styles/*"],
+      "@store/*": ["store/*"],
+      "@helpers/*":["helpers/*"],
+      "@type/*":["type/*"],
+      "@enum/*":["../enum/*"]
+    },
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/components/Test/Test.test.jsx", "src/store/index.ts", "src/components/Button/IconButton/GetSvgIcons"],
+  "exclude": ["node_modules"]
+  
+}
