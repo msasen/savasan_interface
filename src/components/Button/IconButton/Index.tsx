@@ -1,13 +1,15 @@
-import { Button } from 'antd/lib'
-import { Home } from '@components/icons/SvgIcons'
+import NavBar from './spesificIconButtons/NavBar'
 // type Props = {}
 
 const IconButton = () => {
   return (
-    <div className="icon-button">
-      <Button>
-        <Home style={{ transform: 'scale(0.65)' }} />
+    <div className="icon-buttonx">
+      {/*
+     <Button>
+        <Icons Default Type="Map" />
       </Button>
+  */}
+      <NavBar />
     </div>
   )
 }

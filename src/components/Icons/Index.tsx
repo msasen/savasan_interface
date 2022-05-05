@@ -9,14 +9,16 @@ const optionalProps: ISvgIconsOptionalProp = {
   Background: Color.White,
   BorderLengh: '40px',
   Scale: 1,
-  isDefault: false
+  Default: false
 }
 
 const Icons = (props: ISvgIcons) => {
-  const { Type, Colors, Background, BorderLengh, Scale, isDefault } = props
+  const { Type, Colors, Background, BorderLengh, Scale, Default } = props
   const IconComponent = CreateDynamicComponentToImportedComponents(Type)
-  return isDefault ? (
-    <IconComponent />
+  return Default ? (
+    <div style={{ width: '20px', height: '20px' }}>
+      <IconComponent />
+    </div>
   ) : (
     <div>
       <div

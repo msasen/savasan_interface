@@ -5,33 +5,9 @@ interface ISvgIconsOptionalProp {
   Background: IColor
   BorderLengh: string
   Scale: number
-  isDefault: boolean
+  Default: boolean
 }
-type ISvgIconType =
-  | 'Account'
-  | 'Calendar'
-  | 'ChevronDown'
-  | 'ChevronLeft'
-  | 'ChevronRight'
-  | 'ChevronUp'
-  | 'Clock'
-  | 'Close'
-  | 'Demo陌cons'
-  | 'Expand'
-  | 'Gallery'
-  | 'GetSvgIcons'
-  | 'Home'
-  | 'index'
-  | 'Menu'
-  | 'Minus'
-  | 'Movie'
-  | 'Pause'
-  | 'Play'
-  | 'Search'
-  | 'Settings'
-  | 'StarFill'
-  | 'StarStroke'
-  | 'Tv'
+type ISvgIconType = 'Map' | 'World' | 'Puzzle' | 'Setting'
 interface ISvgIconsRequiredProps {
   Type: ISvgIconType
 }

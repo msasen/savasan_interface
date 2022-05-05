@@ -1,5 +1,5 @@
 /* eslint-disable security/detect-object-injection */
-import * as Icons from '@components/icons/SvgIcons'
+import * as Icons from '@components/Icons/SvgIcons'
 import ISvgIconType from '@type/IsvgIcons'
 
 const CreateDynamicComponentToImportedComponents = (Type: ISvgIconType) => {
