@@ -1,4 +1,3 @@
-import NavBar from './spesificIconButtons/NavBar'
 // type Props = {}
 
 const IconButton = () => {
@@ -9,7 +8,6 @@ const IconButton = () => {
         <Icons Default Type="Map" />
       </Button>
   */}
-      <NavBar />
     </div>
   )
 }

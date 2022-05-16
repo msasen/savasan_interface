@@ -7,7 +7,7 @@ interface ISvgIconsOptionalProp {
   Scale: number
   Default: boolean
 }
-type ISvgIconType = 'Map' | 'World' | 'Puzzle' | 'Setting'
+type ISvgIconType = 'Map' | 'World' | 'Puzzle' | 'Setting' | 'Icon'
 interface ISvgIconsRequiredProps {
   Type: ISvgIconType
 }

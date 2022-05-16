@@ -16,7 +16,7 @@
     "e2e:headless": " start-server-and-test dev http://localhost:3000 cypress:headless",
     "storybook": " start-storybook -p 6006",
     "build-storybook": " build-storybook",
-    "svgToComponent": " npx @svgr/cli --out-dir src/components/icons/SvgIcons -- icons",
+    "svgToComponent": " npx @svgr/cli --out-dir src/components/Icons/SvgIcons -- icons",
     "windows": "SET NODE_OPTIONS=--openssl-legacy-provider && "
   },
   "dependencies": {

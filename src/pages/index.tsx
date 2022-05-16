@@ -1,10 +1,8 @@
 /* eslint-disable import/no-unresolved */
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
-import styles from '@styles/Home.module.css'
-import TextButton from '@components/Button/TextButtons/SpesifcButtons/PrimeryButton'
 import IconButton from '@components/Button/IconButton/Index'
+import NavBar from '@components/NavBar/Index'
 // import Counter from '@components/counter/Counter'
 
 const Home: NextPage = () => {
@@ -16,9 +14,10 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {/* <Counter /> */}
-      <TextButton TextOfTheButton="Hİ" type="primeryButton" />
+      {/* <TextButton TextOfTheButton="Hİ" type="primeryButton" /> */}
       <IconButton />
-      <footer className={styles.footer}>
+      <NavBar />
+      {/* <footer className={styles.footer}>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
@@ -29,7 +28,7 @@ const Home: NextPage = () => {
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
         </a>
-      </footer>
+      </footer> */}
     </div>
   )
 }
